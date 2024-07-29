@@ -17,7 +17,7 @@ class ChatBot():
   embeddings = HuggingFaceEmbeddings()
 
   pinecone.init(
-      api_key= os.getenv('PINECONE_API_KEY'),
+      api_key= os.getenv('e5ad0b3b-eb3c-4a5d-976f-7ae13f72ca5a'),
       environment='gcp-starter'
   )
 
